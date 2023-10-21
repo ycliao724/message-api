@@ -28,11 +28,6 @@ class MessageController extends Controller
     {
         //將輸入之訊息寫入至資料庫
         return Message::create($request->all());
-        // $message = new Message;
-        // $message->title = $request->title;
-        // $message->contest = $request->contest;
-        // $message->save();
-        
     }
 
     /**
